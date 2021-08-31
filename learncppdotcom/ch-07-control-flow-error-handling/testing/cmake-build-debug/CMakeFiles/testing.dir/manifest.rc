@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/GitHub/learncppdotcom/ch-07-control-flow-error-handling/testing/cmake-build-debug/CMakeFiles/testing.dir/embed.manifest"
