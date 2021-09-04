@@ -1,10 +1,21 @@
 #include <iostream>
 
+int getUserInput()
+{
+    int i{};
+    std::cin >> i;
+    return i;
+}
+
 int main()
 {
+    std::cout << "How many bananas did you eat today?";
 
-    std::int_least8_t x{ 97 };
-    std::cout << x;
+    if (int iBananasEaten{ getUserInput() }; iBananasEaten <=2)
+        std::cout << "That's a tasty treat.";
+    else
+        std::cout << "Wow--you ate a lot of bananas!";
+
 
     return 0;
 }
