@@ -2,11 +2,13 @@
 
 int main()
 {
-    int x{ 5 };
-    std::cout << x << '\n';
-    std::cout << &x << '\n';
-    std::cout << *&x << '\n';
-
+    int value{ 5 };
+    int* ptr{ &value };
+    std::cout << "value is: " << value << '\n';
+    std::cout << "&value is: " << &value << '\n';
+//    std::cout << "*&value is: " << *&value << '\n';
+    std::cout << "ptr is: " << ptr << '\n';
+    std::cout << "*ptr is: " << *ptr;
 
     return 0;
 }
