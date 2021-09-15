@@ -8,11 +8,11 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
-namespace My.Functions
+namespace Tradegame.Function
 {
-    public static class HttpExample
+    public static class HttpTrigger01
     {
-        [FunctionName("HttpExample")]
+        [FunctionName("HttpTrigger01")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
             ILogger log)
