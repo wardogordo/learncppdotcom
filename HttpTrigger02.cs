@@ -26,10 +26,8 @@ namespace Tradegame.Trigger02
             name = name ?? data?.name;
 
             string responseMessage = string.IsNullOrEmpty(name)
-                // ? "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response."
                 ? "Successful."
-                // : $"Hello, {name}. This HTTP triggered function executed successfully.";
-                : {name};
+                : $"Hello, {name}.";
 
             return new OkObjectResult(responseMessage);
         }
