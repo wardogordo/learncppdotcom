@@ -8,11 +8,11 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
-namespace Tradegame.Function
+namespace Tradegame.Trigger02
 {
-    public static class HttpTrigger01
+    public static class HttpTrigger02
     {
-        [FunctionName("HttpTrigger01")]
+        [FunctionName("HttpTrigger02")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
             ILogger log)
@@ -26,8 +26,10 @@ namespace Tradegame.Function
             name = name ?? data?.name;
 
             string responseMessage = string.IsNullOrEmpty(name)
-                ? "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response."
-                : $"Hello, my delightful friend, {name}. This HTTP triggered function executed successfully.";
+                // ? "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response."
+                ? "Successful."
+                // : $"Hello, {name}. This HTTP triggered function executed successfully.";
+                : {name};
 
             return new OkObjectResult(responseMessage);
         }
