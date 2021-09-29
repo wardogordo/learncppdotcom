@@ -7,7 +7,7 @@ void countDown(int count)
     if (count > 1)
         countDown(count - 1);
 
-    std::cout << "pop " << count << '\n';
+//    std::cout << "pop " << count << '\n';
 }
 
 int main()
