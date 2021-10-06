@@ -1,0 +1,16 @@
+D:\GitHub\async-study\async-study\bin\Debug\net5.0\async-study.exe
+D:\GitHub\async-study\async-study\bin\Debug\net5.0\async-study.deps.json
+D:\GitHub\async-study\async-study\bin\Debug\net5.0\async-study.runtimeconfig.json
+D:\GitHub\async-study\async-study\bin\Debug\net5.0\async-study.runtimeconfig.dev.json
+D:\GitHub\async-study\async-study\bin\Debug\net5.0\async-study.dll
+D:\GitHub\async-study\async-study\bin\Debug\net5.0\ref\async-study.dll
+D:\GitHub\async-study\async-study\bin\Debug\net5.0\async-study.pdb
+D:\GitHub\async-study\async-study\obj\Debug\net5.0\async-study.csproj.AssemblyReference.cache
+D:\GitHub\async-study\async-study\obj\Debug\net5.0\async-study.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\async-study\async-study\obj\Debug\net5.0\async-study.AssemblyInfoInputs.cache
+D:\GitHub\async-study\async-study\obj\Debug\net5.0\async-study.AssemblyInfo.cs
+D:\GitHub\async-study\async-study\obj\Debug\net5.0\async-study.csproj.CoreCompileInputs.cache
+D:\GitHub\async-study\async-study\obj\Debug\net5.0\async-study.dll
+D:\GitHub\async-study\async-study\obj\Debug\net5.0\ref\async-study.dll
+D:\GitHub\async-study\async-study\obj\Debug\net5.0\async-study.pdb
+D:\GitHub\async-study\async-study\obj\Debug\net5.0\async-study.genruntimeconfig.cache
