@@ -1,0 +1,3 @@
+D:/GitHub/learncppdotcom/ch-08-type-conversion-and-function-overloading/static-cast/cmake-build-debug/CMakeFiles/static_cast.dir
+D:/GitHub/learncppdotcom/ch-08-type-conversion-and-function-overloading/static-cast/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/GitHub/learncppdotcom/ch-08-type-conversion-and-function-overloading/static-cast/cmake-build-debug/CMakeFiles/rebuild_cache.dir

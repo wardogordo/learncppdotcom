@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/GitHub/learncppdotcom/ch-11-functions/recursion01/cmake-build-debug/CMakeFiles/recursion01.dir/embed.manifest"

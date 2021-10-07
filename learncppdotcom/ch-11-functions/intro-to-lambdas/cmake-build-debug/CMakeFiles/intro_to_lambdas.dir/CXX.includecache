@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/GitHub/learncppdotcom/ch-11-functions/intro-to-lambdas/main.cpp
+algorithm
+-
+array
+-
+iostream
+-
+string_view
+-
+

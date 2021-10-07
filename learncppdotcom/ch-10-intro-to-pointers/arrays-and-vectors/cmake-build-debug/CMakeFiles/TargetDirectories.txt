@@ -1,0 +1,3 @@
+D:/GitHub/learncppdotcom/ch-10-intro-to-pointers/arrays-and-vectors/cmake-build-debug/CMakeFiles/arrays_and_vectors.dir
+D:/GitHub/learncppdotcom/ch-10-intro-to-pointers/arrays-and-vectors/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/GitHub/learncppdotcom/ch-10-intro-to-pointers/arrays-and-vectors/cmake-build-debug/CMakeFiles/rebuild_cache.dir

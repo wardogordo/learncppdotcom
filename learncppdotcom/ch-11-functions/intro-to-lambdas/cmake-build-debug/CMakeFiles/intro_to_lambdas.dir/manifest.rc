@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/GitHub/learncppdotcom/ch-11-functions/intro-to-lambdas/cmake-build-debug/CMakeFiles/intro_to_lambdas.dir/embed.manifest"

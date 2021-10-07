@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/GitHub/learncppdotcom/ch-11-functions/standard-library-function-objects/cmake-build-debug/CMakeFiles/standard_library_function_objects.dir/embed.manifest"

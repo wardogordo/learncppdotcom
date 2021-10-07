@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/GitHub/learncppdotcom/ch-08-type-conversion-and-function-overloading/promotions-01/cmake-build-debug/CMakeFiles/promotions_01.dir/embed.manifest"
