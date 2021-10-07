@@ -8,97 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a53ba42e-ef96-4087-a6f7-72eaae0792fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AsyncBreakfast/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AsyncBreakfast/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AsyncBreakfast/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AsyncBreakfast/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AsyncBreakfast/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AsyncBreakfast.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AsyncBreakfast/AsyncBreakfast.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AsyncBreakfast/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AsyncBreakfast/bin/Debug/net5.0/AsyncBreakfast.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AsyncBreakfast/bin/Debug/net5.0/AsyncBreakfast.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AsyncBreakfast/bin/Debug/net5.0/AsyncBreakfast.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AsyncBreakfast/bin/Debug/net5.0/AsyncBreakfast.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AsyncBreakfast/bin/Debug/net5.0/AsyncBreakfast.runtimeconfig.dev.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AsyncBreakfast/bin/Debug/net5.0/AsyncBreakfast.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AsyncBreakfast/bin/Debug/net5.0/ref/AsyncBreakfast.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AsyncBreakfast/obj/AsyncBreakfast.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AsyncBreakfast/obj/AsyncBreakfast.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AsyncBreakfast/obj/AsyncBreakfast.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AsyncBreakfast/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AsyncBreakfast/obj/Debug/net5.0/AsyncBreakfast.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AsyncBreakfast/obj/Debug/net5.0/AsyncBreakfast.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AsyncBreakfast/obj/Debug/net5.0/AsyncBreakfast.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AsyncBreakfast/obj/Debug/net5.0/AsyncBreakfast.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AsyncBreakfast/obj/Debug/net5.0/AsyncBreakfast.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AsyncBreakfast/obj/Debug/net5.0/AsyncBreakfast.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AsyncBreakfast/obj/Debug/net5.0/AsyncBreakfast.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AsyncBreakfast/obj/Debug/net5.0/AsyncBreakfast.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AsyncBreakfast/obj/Debug/net5.0/AsyncBreakfast.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AsyncBreakfast/obj/Debug/net5.0/AsyncBreakfast.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AsyncBreakfast/obj/Debug/net5.0/apphost.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AsyncBreakfast/obj/Debug/net5.0/ref/AsyncBreakfast.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AsyncBreakfast/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AsyncBreakfast/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AsyncBreakfast/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AsyncBreakfast/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/.idea/.idea.my-csharp-study/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/.idea/.idea.my-csharp-study/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/.idea/.idea.my-csharp-study/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/.idea/.idea.my-csharp-study/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/my-csharp-study/bin/Debug/net5.0/my-csharp-study.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/my-csharp-study/bin/Debug/net5.0/my-csharp-study.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/my-csharp-study/bin/Debug/net5.0/my-csharp-study.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/my-csharp-study/bin/Debug/net5.0/my-csharp-study.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/my-csharp-study/bin/Debug/net5.0/my-csharp-study.runtimeconfig.dev.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/my-csharp-study/bin/Debug/net5.0/my-csharp-study.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/my-csharp-study/bin/Debug/net5.0/ref/my-csharp-study.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/my-csharp-study/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/my-csharp-study/obj/Debug/net5.0/apphost.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/my-csharp-study/obj/Debug/net5.0/my-csharp-study.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/my-csharp-study/obj/Debug/net5.0/my-csharp-study.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/my-csharp-study/obj/Debug/net5.0/my-csharp-study.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/my-csharp-study/obj/Debug/net5.0/my-csharp-study.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/my-csharp-study/obj/Debug/net5.0/my-csharp-study.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/my-csharp-study/obj/Debug/net5.0/my-csharp-study.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/my-csharp-study/obj/Debug/net5.0/my-csharp-study.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/my-csharp-study/obj/Debug/net5.0/my-csharp-study.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/my-csharp-study/obj/Debug/net5.0/my-csharp-study.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/my-csharp-study/obj/Debug/net5.0/my-csharp-study.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/my-csharp-study/obj/Debug/net5.0/ref/my-csharp-study.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/my-csharp-study/obj/my-csharp-study.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/my-csharp-study/obj/my-csharp-study.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/my-csharp-study/obj/my-csharp-study.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/my-csharp-study/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/my-csharp-study/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/my-csharp-study/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-csharp-study/my-csharp-study/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../async-study/.idea/.idea.async-study/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../async-study/.idea/.idea.async-study/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../async-study/.idea/.idea.async-study/.idea/projectSettingsUpdater.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../async-study/.idea/.idea.async-study/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../async-study/async-study/bin/Debug/net5.0/async-study.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../async-study/async-study/bin/Debug/net5.0/async-study.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../async-study/async-study/bin/Debug/net5.0/async-study.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../async-study/async-study/bin/Debug/net5.0/async-study.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../async-study/async-study/bin/Debug/net5.0/async-study.runtimeconfig.dev.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../async-study/async-study/bin/Debug/net5.0/async-study.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../async-study/async-study/bin/Debug/net5.0/ref/async-study.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../async-study/async-study/obj/Debug/net5.0/apphost.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../async-study/async-study/obj/Debug/net5.0/async-study.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../async-study/async-study/obj/Debug/net5.0/async-study.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../async-study/async-study/obj/Debug/net5.0/async-study.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../async-study/async-study/obj/Debug/net5.0/async-study.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../async-study/async-study/obj/Debug/net5.0/async-study.genruntimeconfig.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../async-study/async-study/obj/Debug/net5.0/async-study.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../async-study/async-study/obj/Debug/net5.0/ref/async-study.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../async-study/async-study/obj/async-study.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../async-study/async-study/obj/async-study.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../async-study/async-study/obj/async-study.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../async-study/async-study/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../async-study/async-study/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../async-study/async-study/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AsyncBreakfast/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AsyncBreakfast/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1633565114014</updated>
       <workItem from="1633565135733" duration="4918000" />
-      <workItem from="1633609810562" duration="4784000" />
+      <workItem from="1633609810562" duration="5362000" />
     </task>
     <servers />
   </component>
