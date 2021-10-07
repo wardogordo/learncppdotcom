@@ -7,9 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a53ba42e-ef96-4087-a6f7-72eaae0792fc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/AsyncBreakfast/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AsyncBreakfast/Program.cs" afterDir="false" />
-    </list>
+    <list default="true" id="a53ba42e-ef96-4087-a6f7-72eaae0792fc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1633565114014</updated>
       <workItem from="1633565135733" duration="4918000" />
-      <workItem from="1633609810562" duration="5362000" />
+      <workItem from="1633609810562" duration="5722000" />
     </task>
     <servers />
   </component>
