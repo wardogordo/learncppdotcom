@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookingBreakfastTutorial", "CookingBreakfastTutorial\CookingBreakfastTutorial.csproj", "{FCE6FED9-E77A-4334-8E88-6E1F3E4CDEAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCE6FED9-E77A-4334-8E88-6E1F3E4CDEAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCE6FED9-E77A-4334-8E88-6E1F3E4CDEAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCE6FED9-E77A-4334-8E88-6E1F3E4CDEAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCE6FED9-E77A-4334-8E88-6E1F3E4CDEAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

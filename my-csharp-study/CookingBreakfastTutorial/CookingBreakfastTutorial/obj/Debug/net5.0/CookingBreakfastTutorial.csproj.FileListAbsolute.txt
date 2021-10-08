@@ -1,0 +1,16 @@
+D:\GitHub\my-csharp-study\CookingBreakfastTutorial\CookingBreakfastTutorial\bin\Debug\net5.0\CookingBreakfastTutorial.exe
+D:\GitHub\my-csharp-study\CookingBreakfastTutorial\CookingBreakfastTutorial\bin\Debug\net5.0\CookingBreakfastTutorial.deps.json
+D:\GitHub\my-csharp-study\CookingBreakfastTutorial\CookingBreakfastTutorial\bin\Debug\net5.0\CookingBreakfastTutorial.runtimeconfig.json
+D:\GitHub\my-csharp-study\CookingBreakfastTutorial\CookingBreakfastTutorial\bin\Debug\net5.0\CookingBreakfastTutorial.runtimeconfig.dev.json
+D:\GitHub\my-csharp-study\CookingBreakfastTutorial\CookingBreakfastTutorial\bin\Debug\net5.0\CookingBreakfastTutorial.dll
+D:\GitHub\my-csharp-study\CookingBreakfastTutorial\CookingBreakfastTutorial\bin\Debug\net5.0\ref\CookingBreakfastTutorial.dll
+D:\GitHub\my-csharp-study\CookingBreakfastTutorial\CookingBreakfastTutorial\bin\Debug\net5.0\CookingBreakfastTutorial.pdb
+D:\GitHub\my-csharp-study\CookingBreakfastTutorial\CookingBreakfastTutorial\obj\Debug\net5.0\CookingBreakfastTutorial.csproj.AssemblyReference.cache
+D:\GitHub\my-csharp-study\CookingBreakfastTutorial\CookingBreakfastTutorial\obj\Debug\net5.0\CookingBreakfastTutorial.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\my-csharp-study\CookingBreakfastTutorial\CookingBreakfastTutorial\obj\Debug\net5.0\CookingBreakfastTutorial.AssemblyInfoInputs.cache
+D:\GitHub\my-csharp-study\CookingBreakfastTutorial\CookingBreakfastTutorial\obj\Debug\net5.0\CookingBreakfastTutorial.AssemblyInfo.cs
+D:\GitHub\my-csharp-study\CookingBreakfastTutorial\CookingBreakfastTutorial\obj\Debug\net5.0\CookingBreakfastTutorial.csproj.CoreCompileInputs.cache
+D:\GitHub\my-csharp-study\CookingBreakfastTutorial\CookingBreakfastTutorial\obj\Debug\net5.0\CookingBreakfastTutorial.dll
+D:\GitHub\my-csharp-study\CookingBreakfastTutorial\CookingBreakfastTutorial\obj\Debug\net5.0\ref\CookingBreakfastTutorial.dll
+D:\GitHub\my-csharp-study\CookingBreakfastTutorial\CookingBreakfastTutorial\obj\Debug\net5.0\CookingBreakfastTutorial.pdb
+D:\GitHub\my-csharp-study\CookingBreakfastTutorial\CookingBreakfastTutorial\obj\Debug\net5.0\CookingBreakfastTutorial.genruntimeconfig.cache

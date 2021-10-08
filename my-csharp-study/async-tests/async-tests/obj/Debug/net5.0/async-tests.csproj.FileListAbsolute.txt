@@ -1,0 +1,16 @@
+D:\GitHub\my-csharp-study\async-tests\async-tests\bin\Debug\net5.0\async-tests.exe
+D:\GitHub\my-csharp-study\async-tests\async-tests\bin\Debug\net5.0\async-tests.deps.json
+D:\GitHub\my-csharp-study\async-tests\async-tests\bin\Debug\net5.0\async-tests.runtimeconfig.json
+D:\GitHub\my-csharp-study\async-tests\async-tests\bin\Debug\net5.0\async-tests.runtimeconfig.dev.json
+D:\GitHub\my-csharp-study\async-tests\async-tests\bin\Debug\net5.0\async-tests.dll
+D:\GitHub\my-csharp-study\async-tests\async-tests\bin\Debug\net5.0\ref\async-tests.dll
+D:\GitHub\my-csharp-study\async-tests\async-tests\bin\Debug\net5.0\async-tests.pdb
+D:\GitHub\my-csharp-study\async-tests\async-tests\obj\Debug\net5.0\async-tests.csproj.AssemblyReference.cache
+D:\GitHub\my-csharp-study\async-tests\async-tests\obj\Debug\net5.0\async-tests.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\my-csharp-study\async-tests\async-tests\obj\Debug\net5.0\async-tests.AssemblyInfoInputs.cache
+D:\GitHub\my-csharp-study\async-tests\async-tests\obj\Debug\net5.0\async-tests.AssemblyInfo.cs
+D:\GitHub\my-csharp-study\async-tests\async-tests\obj\Debug\net5.0\async-tests.csproj.CoreCompileInputs.cache
+D:\GitHub\my-csharp-study\async-tests\async-tests\obj\Debug\net5.0\async-tests.dll
+D:\GitHub\my-csharp-study\async-tests\async-tests\obj\Debug\net5.0\ref\async-tests.dll
+D:\GitHub\my-csharp-study\async-tests\async-tests\obj\Debug\net5.0\async-tests.pdb
+D:\GitHub\my-csharp-study\async-tests\async-tests\obj\Debug\net5.0\async-tests.genruntimeconfig.cache
