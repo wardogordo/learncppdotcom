@@ -1,7 +1,36 @@
+#include <cassert>
+#include <cstddef>
 #include <iostream>
+
+class Simple
+{
+private:
+    int m_nID{};
+
+public:
+    Simple(int nID)
+        : m_nID{ nID } // constructor with initialization list
+    {
+        std::cout << "Constructing Simple " << nID << '\n';
+    }
+
+    ~Simple()
+    {
+        std::cout << "Destructing Simple " << m_nID << '\n';
+    }
+
+    int getID() { return  m_nID; }
+};
 
 int main()
 {
-    std::cout << "Hello, World!" << std::endl;
+    Simple simple{ 1 };
+    std::cout << simple.getID() << '\n';
+
+    Simple *pSimple{ new Simple{ 2 }};
+    std::cout << pSimple->getID() << '\n';
+
+    delete pSimple;
+
     return 0;
 }
