@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="591e88e6-92c2-4e74-aba6-e63008f69d60" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/CookingBreakfastTutorial/CookingBreakfastTutorial/bin/Debug/net5.0/CookingBreakfastTutorial.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CookingBreakfastTutorial/CookingBreakfastTutorial/bin/Debug/net5.0/CookingBreakfastTutorial.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CookingBreakfastTutorial/CookingBreakfastTutorial/bin/Debug/net5.0/CookingBreakfastTutorial.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CookingBreakfastTutorial/CookingBreakfastTutorial/bin/Debug/net5.0/CookingBreakfastTutorial.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CookingBreakfastTutorial/CookingBreakfastTutorial/obj/Debug/net5.0/CookingBreakfastTutorial.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CookingBreakfastTutorial/CookingBreakfastTutorial/obj/Debug/net5.0/CookingBreakfastTutorial.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CookingBreakfastTutorial/CookingBreakfastTutorial/obj/Debug/net5.0/CookingBreakfastTutorial.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CookingBreakfastTutorial/CookingBreakfastTutorial/obj/Debug/net5.0/CookingBreakfastTutorial.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +13,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1zBm99agBUjVdVIT1xE5PRRrXuj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,15 +36,29 @@
       <updated>1633629705517</updated>
       <workItem from="1633629707246" duration="90000" />
       <workItem from="1633651044347" duration="27000" />
+      <workItem from="1633708664371" duration="147000" />
+      <workItem from="1633708877906" duration="56000" />
+      <workItem from="1633711398122" duration="183000" />
     </task>
+    <task id="LOCAL-00001" summary="A main commit.">
+      <created>1633711444230</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633711444230</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="A main commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="A main commit." />
   </component>
 </project>
