@@ -11,6 +11,10 @@ public:
     int getMyInteger() { return m_myInteger;}
 };
 
+void changeN(int ref)
+{
+    ref = 6;
+}
 
 
 int main()
@@ -27,12 +31,22 @@ int main()
     int myPublicInt { 11 };
     std::cout << "myPublicInt: " << myPublicInt << '\n';
 
-    int& myRefVar = myPublicInt;
-    int myNonRefVar = myPublicInt;
+    int& myReferenceVariable = myPublicInt;
+    int myNonReferenceVariable = myPublicInt;
+    int* myPointer { &myPublicInt };
 
     std::cout << "myPublicInt: " << &myPublicInt << '\n';
-    std::cout << "myRefVar: " << &myRefVar << '\n';
-    std::cout << "myNonRefVar: " << &myNonRefVar << '\n';
+    std::cout << "myReferenceVariable: " << &myReferenceVariable << '\n';
+    std::cout << "myNonReferenceVariable: " << &myNonReferenceVariable << '\n';
+    std::cout << "myPointer: " << myPointer;
+
+    int n{ 5 };
+    std::cout << n << '\n';
+
+    changeN(n);
+    std::cout << n << '\n';
+
+
 
     return 0;
 }
