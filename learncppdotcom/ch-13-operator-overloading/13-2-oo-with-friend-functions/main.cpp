@@ -1,37 +1,52 @@
 #include <iostream>
 
-class Cents
+class MinMax
 {
 private:
-    int m_cents {};
+    int m_min {};
+    int m_max {};
 
 public:
-    Cents(int cents) { m_cents = cents; }
-    int getCents() const { return m_cents; }
+    MinMax(int min, int max)
+    {
+        m_min = min;
+        m_max = max;
+    }
 
-    friend Cents operator+(Cents const &c1, Cents const &c2);
-    friend Cents operator-(Cents const &c1, Cents const &c2);
+    int getMin() const { return m_min; }
+    int getMax() const { return m_max; }
 
+    friend MinMax operator+(MinMax &m1, MinMax &m2);
+    friend MinMax operator+(MinMax &m1, int value);
+    friend MinMax operator+(int value, MinMax &m1);
 };
 
-Cents operator+(Cents const &c1, Cents const &c2)
+MinMax operator+(const MinMax &m1, const MinMax &m2)
 {
-    return Cents(c1.m_cents + c2.m_cents);
+    int min{ m1.m_min < m2.m_min ? m1.m_min : m2.m_min };
+    int max{ m1.m_max > m2.m_max ? m1.m_max : m2.m_max };
+
+    return { min, max };
 }
 
-Cents operator-(Cents const &c1, Cents const &c2)
+MinMax operator+(const MinMax &m1, int value)
 {
-    return Cents(c1.m_cents - c2.m_cents);
+    int min{ m1.m_min < value ? m1.m_min : value };
+    int max{ m1.m_max > value ? m1.m_max : value };
+
+    return { min, max };
+}
+
+MinMax operator+(int value, const MinMax &m)
+{
+    return { m + value };
 }
 
 int main()
 {
-    Cents centsOne(11);
-    Cents centsTwo(7);
-    Cents centsSum{ centsOne + centsTwo };
-    std::cout << "My Cents objects addition is: " << centsSum.getCents() << '\n';
-    Cents centsDifference{ centsOne - centsTwo };
-    std::cout << "My Cents objects subtraction is: " << centsDifference.getCents() << '\n';
+    MinMax m1{ 10, 15 };
+    MinMax m2{ 8, 11 };
+    MinMax m3{ 3, 12 };
 
     return 0;
 }
