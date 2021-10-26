@@ -16,9 +16,9 @@ public:
     int getMin() const { return m_min; }
     int getMax() const { return m_max; }
 
-    friend MinMax operator+(MinMax &m1, MinMax &m2);
-    friend MinMax operator+(MinMax &m1, int value);
-    friend MinMax operator+(int value, MinMax &m1);
+    friend MinMax operator+(const MinMax &m1, const MinMax &m2);
+    friend MinMax operator+(const MinMax &m1, int value);
+    friend MinMax operator+(int value, const MinMax &m1);
 };
 
 MinMax operator+(const MinMax &m1, const MinMax &m2)
@@ -47,6 +47,10 @@ int main()
     MinMax m1{ 10, 15 };
     MinMax m2{ 8, 11 };
     MinMax m3{ 3, 12 };
+
+    MinMax mFinal{ m1 + m2 + 5 + 8 + m3 + 16 };
+
+    std::cout << "Result: (" << mFinal.getMin() << ", " << mFinal.getMax() << ")\n";
 
     return 0;
 }
