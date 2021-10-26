@@ -42,11 +42,26 @@ MinMax operator+(int value, const MinMax &m)
     return { m + value };
 }
 
+/*MinMax operator+(int value, const MinMax &m)
+{
+    int min{ value < m.m_min ? value : m.m_min };
+    int max{ value > m.m_min ? value : m.m_max };
+    return { min, max };
+}*/
+
 int main()
 {
     MinMax m1{ 10, 15 };
     MinMax m2{ 8, 11 };
     MinMax m3{ 3, 12 };
+
+    MinMax mFirst{ m1 + m2 };
+    std::cout << "m1 + m2: " << mFirst.getMin() << ", " << mFirst.getMax() << '\n';
+    MinMax mSecond{ mFirst + 5 };
+    std::cout << "mFirst + 5: " << mSecond.getMin() << ", " << mSecond.getMax() << '\n';
+
+    MinMax y{ 99 + m1};
+    std::cout << "Value + MM: " << y.getMin() << ", " << y.getMax() << '\n';
 
     MinMax mFinal{ m1 + m2 + 5 + 8 + m3 + 16 };
 
