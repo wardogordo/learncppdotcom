@@ -7,23 +7,37 @@ using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
+using PlayFab;
+using PlayFab.ClientModels;
 
 namespace Tradegame.KCStorage
 {
     public static class AddOneKCtoStorage
     {
-        [FunctionName("AddOneKCtoStorage")]
+       [FunctionName("AddOneKCtoStorage")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
             ILogger log)
         {
+           var playerSettings = new PlayFab.PlayFabApiSettings()
+           {
+               TitleId = "274EA",
+           };
+           var clientInstanceAPI = new PlayFabClientInstanceAPI(playerSettings);
+           var clientLoginRequest = new LoginWithCustomIDRequest
+           {
+               CreateAccount = false,
+               TitleId = "274EA"
+           };
+
+     
             log.LogInformation("C# HTTP trigger function processed a request.");
 
             string name = req.Query["name"];
 
             string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
             dynamic data = JsonConvert.DeserializeObject(requestBody);
-            name = name ?? data?.name;
+            name = name ?? data?.FunctionArgument?.name;
 
             string responseMessage = string.IsNullOrEmpty(name)
                 ? "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response."
@@ -31,5 +45,7 @@ namespace Tradegame.KCStorage
 
             return new OkObjectResult(responseMessage);
         }
+
+        
     }
 }
