@@ -3,4 +3,4 @@ project(16_2_composition)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(16_2_composition main.cpp)
+add_executable(16_2_composition main.cpp Creature.h Point2D.h Point2D.h)
