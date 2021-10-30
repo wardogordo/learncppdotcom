@@ -5,6 +5,10 @@
 #ifndef INC_16_2_COMPOSITION_CREATURE_H
 #define INC_16_2_COMPOSITION_CREATURE_H
 
+#include <iostream>
+#include <string>
+#include "Point2D.h"
+
 class Creature
 {
 private:

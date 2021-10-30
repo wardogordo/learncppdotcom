@@ -5,11 +5,13 @@
 #ifndef INC_16_2_COMPOSITION_POINT2D_H
 #define INC_16_2_COMPOSITION_POINT2D_H
 
+#include <iostream>
+
 class Point2D
 {
 private:
     int m_x;
-    int m_y
+    int m_y;
 
 public:
     // Default constructor
