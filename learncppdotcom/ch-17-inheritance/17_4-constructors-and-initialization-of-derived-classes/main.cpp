@@ -1,39 +1,48 @@
 #include <iostream>
 #include <string>
 
-class Base
+class Person
 {
 private:
-    int m_Id{};
+    std::string m_name{};
+    int m_age{};
 
 public:
-    Base(int id=0)
-        : m_Id{id}
+    Person(const std::string& name, int age)
+        : m_name{ name }
+        , m_age{ age}
+    {
+    }
+    std::string getName(){ return m_name; };
+    int getAge(){ return m_age; };
+    void printNameAndAge(){ std::cout << m_name << " is " << m_age << ".\n"; };
+};
+
+class BaseballPlayer : public Person
+{
+private:
+    double m_battingAverage{};
+    int m_homeRuns{};
+
+public:
+    BaseballPlayer(std::string name, int age, double battingAverage, int homeRuns)
+        : m_battingAverage{ battingAverage}
+        , m_homeRuns{ homeRuns}
+        , Person{ name, age }
     {
     }
 
-    int getId() const { return m_Id; }
+    double getBattingAverage(){ return m_battingAverage; };
+    int getHomeRuns(){ return m_homeRuns; };
+    void printBaAndHr(){ std::cout << "\tBatting average: " << m_battingAverage << "\n\tHome runs: " << m_homeRuns << '\n'; };
 };
-
-class Derived : public Base
-{
-private:
-    double m_cost{};
-
-public:
-    Derived(int id, double cost)
-        : m_cost{ cost }
-        , Base{ id }
-    {
-    }
-
-    double getCost() const { return  m_cost; };
-};
-
 
 int main()
 {
-    Derived derived(24, 39.99);
-    std::cout << "derived: id " << derived.getId()  << "; cost $" << derived.getCost() << '\n';
+    BaseballPlayer myPlayer("Mike", 24, .292, 12);
+    std::cout << "myPlayer is " << myPlayer.getName() << ". \n";
+    myPlayer.printNameAndAge();
+    myPlayer.printBaAndHr();
+
     return 0;
 }
