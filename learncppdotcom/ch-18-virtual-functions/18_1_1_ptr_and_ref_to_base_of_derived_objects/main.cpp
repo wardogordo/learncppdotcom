@@ -52,10 +52,10 @@ int main()
     std::cout << dog1.getName() << " is a dog and says \"" << dog1.speak() << "\"\n";\
 
     const Animal* pAnimal{ &cat1 };
-    std::cout << "pAnimal is named " << pAnimal->getName() << " and says \"" << pAnimal->speak() << "\"\n";
+    std::cout << "pAnimal is named " << pAnimal->getName() << " and says \"" << pAnimal->speak() << "\".\n";
 
     pAnimal = &dog1;
-    std::cout << "pAnimal is named " << pAnimal->getName() << " and says \"" << pAnimal->speak() << "\"\n";
+    std::cout << "pAnimal is named " << pAnimal->getName() << " and says \"" << pAnimal->speak() << "\".\n";
 
     return 0;
 }
