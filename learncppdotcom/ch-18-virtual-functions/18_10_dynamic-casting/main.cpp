@@ -39,7 +39,10 @@ Base* getObject(bool returnDerived)
 
 int main()
 {
-
+    Base* b{ getObject(true)};
+    Derived* d{ dynamic_cast<Derived*>(b)};
+    if (d)
+        std::cout << "Derived name: " << d->getName() << '\n';
 
     return 0;
 }
