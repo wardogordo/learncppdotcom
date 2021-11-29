@@ -7,17 +7,18 @@
 
 #include <cassert>
 
+template <typename T> // declaring the variable to represent the type
 class IntArray
 {
 private:
     int m_length{};
-    int* m_data{};
+    T* m_data{};
 
 public:
     IntArray(int length)
     {
         assert(length > 0);
-        m_data = new int[length]{};
+        m_data = new T[length]{}; // Allocated an array of object of type T
         m_length = length;
     }
 
@@ -39,14 +40,21 @@ public:
         m_length = 0;
     }
 
-    int& operator[](int index)
+    T& operator[](int index) // Returns a reference to whatever type T is
     {
         assert(index >= 0 && index < m_length);
         return m_data[index];
     }
 
-    int getLength() const { return m_length };
+    // Templated getLength() function defined below
+    int getLength() const;
 };
 
+// Member functions defined outside the class need their own template declaration
+template <typename T>
+int Array<T>::getLength() const
+{
+    return m_length; // Class name is now Array<T>, not Array.
+}
 
 #endif //INC_19_1_TEMPLATE_CLASSES_INTARRAY_H
