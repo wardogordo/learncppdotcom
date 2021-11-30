@@ -1,32 +1,32 @@
 //
-// Created by wardh on 11/29/2021.
+// Created by wardh on 11/30/2021.
 //
 
-#ifndef INC_19_1_TEMPLATE_CLASSES_INTARRAY_H
-#define INC_19_1_TEMPLATE_CLASSES_INTARRAY_H
+#ifndef INC_19_1_TEMPLATE_CLASSES_ARRAY_H
+#define INC_19_1_TEMPLATE_CLASSES_ARRAY_H
 
 #include <cassert>
 
 template <typename T> // declaring the variable to represent the type
-class IntArray
+class Array
 {
 private:
     int m_length{};
     T* m_data{};
 
 public:
-    IntArray(int length)
+    Array(int length)
     {
         assert(length > 0);
         m_data = new T[length]{}; // Allocated an array of object of type T
         m_length = length;
     }
 
-    // We don't want to allow copies of IntArray to be created.
-    IntArray(const IntArray&) = delete;
-    IntArray& operator=(const IntArray&) = delete;
+    // We don't want to allow copies of Array to be created.
+    Array(const Array&) = delete;
+    Array& operator=(const Array&) = delete;
 
-    ~IntArray()
+    ~Array()
     {
         delete[] m_data;
     }
@@ -46,9 +46,15 @@ public:
         return m_data[index];
     }
 
-    // Templated getLength() function defined below
-    int getLength() const;
+    // Templated getLength() function can be defined within the class or outside.
+    // Note that outside the class, it must be defined as Array<T>, whereas within
+    // it can be defined normally.
+    int getLength() const
+    {
+        return m_length;
+    }
 };
+/*
 
 // Member functions defined outside the class need their own template declaration
 template <typename T>
@@ -56,5 +62,6 @@ int Array<T>::getLength() const
 {
     return m_length; // Class name is now Array<T>, not Array.
 }
+*/
 
-#endif //INC_19_1_TEMPLATE_CLASSES_INTARRAY_H
+#endif //INC_19_1_TEMPLATE_CLASSES_ARRAY_H
