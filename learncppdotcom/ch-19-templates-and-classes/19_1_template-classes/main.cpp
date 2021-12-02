@@ -4,18 +4,17 @@
 int main()
 {
     Array<int> intArray { 12 };
-    Array<double> doubleArray { 12 };
+    Array<double> doubleArray { 12  };
 
-    for (int count = 0; count < intArray.getLength(); ++count)
+    for (int i = 0; i < intArray.getLength(); ++i)
     {
-        intArray[count] = count;
-        doubleArray[count] = count + 0.5;
+        intArray[i] = i;
+        doubleArray[i] = i + 0.65;
     }
 
-    for (int count{ intArray.getLength() - 1 }; count >= 0 ; --count)
+    for (int i{ intArray.getLength() - 1}; i >= 0 ; --i)
     {
-        std::cout << intArray[count] << '\t' << doubleArray[count] << '\n';
+        std::cout << intArray[i] << '\t' << doubleArray[i] << '\n';
     }
-
     return 0;
 }
