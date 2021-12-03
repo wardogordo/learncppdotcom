@@ -7,7 +7,7 @@
 
 #include <cassert>
 
-template <typename T>
+template<typename T>
 class Array
 {
 private:
@@ -18,7 +18,7 @@ public:
     Array(int length)
     {
         assert(length > 0);
-        m_data = new T[length]{}; // Allocated an array of objects of type T
+        m_data = new T[length]{};
         m_length = length;
     }
 
@@ -34,22 +34,20 @@ public:
     {
         delete[] m_data;
         // We need to make sure we set m_data to 0 here, otherwise it will
-        // be left pointing at deallocated memory.
+        // be left pointing at deallocated memory!
         m_data = nullptr;
         m_length = 0;
     }
 
     T& operator[](int index)
     {
-        assert(index >= 0  && index < m_length);
+        assert(index >= 0 && index < m_length);
         return m_data[index];
     }
 
-    int getLength() const
+    int getlength() const
     {
         return m_length;
     }
-
 };
-
 #endif //INC_19_1_TEMPLATE_CLASSES_ARRAY_H

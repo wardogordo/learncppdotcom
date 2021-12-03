@@ -3,18 +3,19 @@
 
 int main()
 {
-    Array<int> intArray { 12 };
-    Array<double> doubleArray { 12  };
+    Array<int> intArray { 3 };
+    Array<double> doubleArray { 3 };
 
-    for (int i = 0; i < intArray.getLength(); ++i)
+    for (int i = 0; i < intArray.getlength(); ++i)
     {
         intArray[i] = i;
-        doubleArray[i] = i + 0.65;
+        doubleArray[i] = i + 33.42;
     }
 
-    for (int i{ intArray.getLength() - 1}; i >= 0 ; --i)
+    for (int i{ intArray.getlength() - 1};  i > 0; --i)
     {
         std::cout << intArray[i] << '\t' << doubleArray[i] << '\n';
     }
-    return 0;
+
+   return 0;
 }
