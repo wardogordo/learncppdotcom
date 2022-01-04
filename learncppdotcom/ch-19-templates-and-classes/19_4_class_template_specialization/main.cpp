@@ -43,5 +43,6 @@ int main()
         std::cout << boolStorage.get(count) <<'\n';
     }
 
+
     return 0;
 }
