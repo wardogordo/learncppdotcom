@@ -45,6 +45,16 @@ public:
         return (m_data & mask);
     }
 
+
+
+    void printArray()
+    {
+        for (int count = 0; count < 8; ++count)
+        {
+
+        }
+    }
+
 };
 
 void checkAlice()
@@ -62,7 +72,8 @@ void checkAlice();
 
 int main()
 {
-  checkAlice();
+  /*
+    checkAlice();
 
     // Define a Storage8 for integers (instantiates Storage8<T>, where T = int)
     Storage8<int> intStorage;
@@ -72,7 +83,7 @@ int main()
 
     for (int count{ 0 }; count < 8; ++count)
         std::cout << intStorage.get(count) << '\n';
-
+*/
     // Define a Storage8 for bool (instantiates Storage8<bool> specialization)
     Storage8<bool> boolStorage;
 
@@ -83,10 +94,13 @@ int main()
 
     std::cout << std::boolalpha;
 
+
     for (int count = 0; count < 8; ++count)
     {
         std::cout << boolStorage.get(count) << '\n';
     }
+
+
 
 return 0;
 }
