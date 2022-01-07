@@ -1,4 +1,5 @@
 #include <iostream>
+#include <bitset>
 
 template <typename T>
 class Storage8
@@ -29,6 +30,8 @@ public:
     {
         // Figure out which bit we're getting
         auto mask{ 1 << index };
+        std::string binary = std::bitset<4>(mask).to_string();
+
 
         if (value) // If we're setting a bit
             m_data |= mask; //Use bitwise-or to turn that bit on
