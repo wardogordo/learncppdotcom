@@ -15,6 +15,8 @@ int main()
     std::cout << "Enter a number:";
     double x{};
     std::cin >> x;
+    // blank
+
 
     try // Look for exceptions that occur within try block and route to attached catch block(s)
     {
