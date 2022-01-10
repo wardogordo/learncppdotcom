@@ -36,9 +36,9 @@ void first()
     {
         second();
     }
-    catch (int)
+    catch (int exception)
     {
-        std::cerr << "first() caught an int exception.\n";
+        std::cerr << "first() caught an int exception: " << exception << '\n';
     }
     catch (double)
     {
