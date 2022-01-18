@@ -19,7 +19,7 @@ public:
 class IntArray
 {
 private:
-    int m_data[3]{}; // Assume array length 3 for simplicity.
+    int m_data[3]{44, 15, 3402}; // Assume array length 3 for simplicity.
 
 public:
     IntArray() {};
@@ -38,10 +38,12 @@ public:
 int main()
 {
     IntArray array;
+    int value;
 
     try
     {
-        int value{ array[3] }; // Out of range subscript
+        value = array[2]; // Out of range subscript
+        std::cout << "Value is: " << value << '\n';
     }
     catch (const ArrayException &exception)
     {
