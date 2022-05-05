@@ -6,6 +6,8 @@ private:
     std::string m_exception{};
 
 public:
+
+
     MyExceptionClass(std::string exception)
         : m_exception(exception)
     {
